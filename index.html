@@ -2,13 +2,357 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/aegis.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index-CB8xRC6H.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CrYBktwj.css">
+    <title>Aegis Compliance AI</title>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bb9yiEnQ.css">
   </head>
   <body>
-    <div id="app"></div>
+    <header class="sticky top-0 z-50 w-full border-b border-cyan-500/20 bg-black/95 backdrop-blur">
+      <div class="container flex h-16 items-center justify-between px-6 md:px-0">
+        <a class="flex items-center gap-2" href="#intro">
+          <img src="aegis-text-white.svg" class="h-36 w-36 text-cyan-400" alt="Shield Icon" />
+        </a>
+        <nav class="hidden md:flex gap-6">
+          <a href="#intro" class="text-sm font-medium text-white hover:text-cyan-400 transition-colors">Intro</a>
+          <a href="#about" class="text-sm font-medium text-white hover:text-cyan-400 transition-colors">About Us</a>
+          <a href="#investors" class="text-sm font-medium text-white hover:text-cyan-400 transition-colors">Investors</a>
+          <a href="#articles" class="text-sm font-medium text-white hover:text-cyan-400 transition-colors">Articles</a>
+          <a href="#contact" class="text-sm font-medium text-white hover:text-cyan-400 transition-colors">Contact</a>
+        </nav>
+        <div class="flex items-center gap-4">
+          <a href="#contact" class="inline-flex h-9 items-center justify-center rounded-md bg-cyan-400 px-4 py-2 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </header>
+    <main className="flex-1">
+      <section id="intro" class="w-full py-12 md:py-24 lg:py-32 bg-black">
+        <div class="absolute inset-0 opacity-10 z-(-99) pointer-events-none">
+          <div class="absolute inset-0 bg-[radial-gradient(#00ffff_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        </div>
+        <div class="container px-4 md:px-6">
+          <div class="grid gap-6  lg:gap-12 xl:grid-cols-[1fr_600px]">
+            <div class="flex flex-col justify-center space-y-4">
+              <div class="space-y-2 text-center">
+                <h1 class="text-3xl font-bold tracking-tighter text-white sm:text-5xl xl:text-6xl/none">
+                  Welcome to Aegis Compliance AI
+                </h1>
+                <p class="max-w-[600px] text-gray-300 md:text-xl mx-auto">
+                  Your scalable partner for ethical, adaptive compliance in tech and AI.
+                </p>
+              </div>
+              <div class="flex flex-col gap-2 min-[400px]:flex-row justify-center">
+                <a
+                  href="#about"
+                  class="inline-flex h-10 items-center justify-center rounded-md bg-cyan-400 px-8 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
+                >
+                  Learn More
+                </a>
+                <a
+                  href="#contact"
+                  class="inline-flex h-10 items-center justify-center rounded-md border border-cyan-400 bg-transparent px-8 text-sm font-medium text-white transition-colors hover:bg-cyan-400/10 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="relative h-[300px] w-[300px] md:h-[400px] md:w-[400px] lg:h-[500px] lg:w-[500px]">
+                <div class="absolute inset-0 flex items-center justify-center bg-white rounded-full ">
+                  <!-- Replace this with an actual SVG or icon if needed -->
+                  <!-- <svg class="h-32 w-32 text-cyan-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 2l7 4v6c0 5-3.6 9.4-7 10-3.4-.6-7-5-7-10V6l7-4z" />
+                  </svg> -->
+
+                  <img src="aegis.svg" alt="Description of the image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-cyan-50">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center mb-8">
+            <div class="space-y-2">
+              <div class="inline-flex items-center rounded-full border border-cyan-400 bg-cyan-400/10 px-3 py-1 text-sm font-semibold text-cyan-600">
+                <svg class="mr-1 h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M17 20h5v-2a4 4 0 0 0-5-4m-6 6v-2a4 4 0 0 1 5-4m-6 6H2v-2a4 4 0 0 1 5-4m3-6a4 4 0 1 1-8 0 4 4 0 0 1 8 0zm6 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
+                </svg>
+                About Us
+              </div>
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-black">Our Mission</h2>
+            </div>
+          </div>
+      
+          <div class="grid gap-10 lg:grid-cols-[1fr_1.5fr] h-fi">
+            <div class="flex flex-col justify-center space-y-4">
+              <div class="flex flex-col items-center md:items-start space-y-3 mb-3 text-center">
+                <img src="Alberto De Arco.webp" class="rounded-md mx-auto max-w-[500px] md:max-w-[600px]">
+                <h3 class="text-xl font-bold text-black mx-auto">Alberto De Arco</h3>
+                <p class="text-gray-600 text-center mx-auto">Founder & CEO: Alberto De Arco</p>
+              </div>
+              <p class="text-gray-600 text-center">
+                Aegis exists to turn compliance into a force of enablement — not limitation. We believe every business should have the ability to grow boldly and ethically.
+              </p>
+            </div>
+            <div class="flex flex-col justify-center space-y-4 bg-white p-6 rounded-lg border border-cyan-400/20 justify-evenly">
+              <div>
+                <h3 class="text-2xl font-bold text-black mb-2">Background</h3>
+                <p class="text-gray-600">Founded by Alberto De Arco, Aegis Compliance AI is built on a belief that compliance should be a catalyst — not a constraint. With a background spanning tech, business strategy, and regulatory frameworks, Alberto leads with clarity, vision, and a human-first approach to AI innovation.
+                  Aegis is where legal insight meets engineering efficiency. Our mission is simple: to empower a new generation of tech businesses to grow sustainably, ethically, and confidently across markets.</p>
+              </div>
+              <div>
+                <h3 class="text-2xl font-bold text-black mb-2">What We Do</h3>
+                <p class="text-gray-600">Aegis Compliance AI transforms compliance from a roadblock into a growth enabler. We offer smart, scalable, and human-centric tools that simplify and automate tech compliance across the UK, EU, and global markets. From compliance tracking to real-time risk detection and ethical AI monitoring — our suite is designed to scale with you.</p>
+              </div>
+              <div>
+                  <h3 class="text-2xl font-bold text-black mb-2">Our Core Values</h3>
+                  <ul class="space-y-4">
+                    <li class="flex items-start">
+                      <div class="mr-2 h-5 w-5 text-cyan-400 mt-0.5">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 class="font-semibold text-black">Enable</h4>
+                        <p class="text-gray-600">We remove friction and activate potential.</p>
+                      </div>
+                    </li>
+                    <li class="flex items-start">
+                      <div class="mr-2 h-5 w-5 text-cyan-400 mt-0.5">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 class="font-semibold text-black">Unlock</h4>
+                        <p class="text-gray-600">We reveal new pathways and simplify complexity.</p>
+                      </div>
+                    </li>
+                    <li class="flex items-start">
+                      <div class="mr-2 h-5 w-5 text-cyan-400 mt-0.5">
+                        <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                          <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 class="font-semibold text-black">Empower</h4>
+                        <p class="text-gray-600">We equip businesses to move confidently and compliantly.</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div> 
+          </div>
+        </div>
+      </section>
+      <section id="investors" class="w-full py-12 md:py-24 lg:py-32 bg-black">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+              <div class="inline-flex items-center rounded-full border border-cyan-400 bg-cyan-400/10 px-3 py-1 text-sm font-semibold text-cyan-400">
+                <svg class="mr-1 h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M6 7V4h12v3M6 21h12v-2H6v2zm13-6H5a2 2 0 01-2-2V9a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2z"/>
+                </svg>
+                Investors
+              </div>
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-white">
+                Initial Seed Capital for Aegis Compliance AI
+              </h2>
+            </div>
+          </div>
+      
+          <div class="mt-8 flex justify-center">
+            <a href="Invest in Aegis.pdf" download type="" class="inline-flex h-10 items-center justify-center rounded-md bg-cyan-400 px-8 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+              <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path d="M12 5v14m0 0l-6-6m6 6l6-6"/>
+              </svg>
+              Download Executive Summary (PDF)
+            </a>
+          </div>
+      
+          <div class="mt-12 text-center">
+            <h3 class="text-xl font-bold text-white mb-4">Interested in joining us?</h3>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="https://calendar.app.google/XPscdGMbEm YkySQf9" target="_blank" class="inline-flex h-10 items-center justify-center rounded-md bg-cyan-400 px-8 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                  <path d="M16 2v4M8 2v4M3 10h18"/>
+                </svg>
+                Book a Call
+              </a>
+              <a href="mailto:investors@aegiscomplianceai.com" class="inline-flex h-10 items-center justify-center rounded-md border border-cyan-400 bg-transparent px-8 text-sm font-medium text-white transition-colors hover:bg-cyan-400/10 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M4 4h16v16H4V4z"/>
+                  <path d="M22 6l-10 7L2 6"/>
+                </svg>
+                Email Us
+              </a>
+            </div>
+            <p class="text-gray-400 mt-2">Or email us at investors@aegiscomplianceai.com</p>
+          </div>
+      
+          <div class="mt-16 bg-black/50 border border-cyan-400/20 rounded-lg p-6">
+            <h3 class="text-xl font-bold text-white mb-4">SEIS Information</h3>
+            <p class="text-gray-300 mb-6">
+              We are raising under the UK's Seed Enterprise Investment Scheme (SEIS). This allows UK tax-paying investors to claim up to 50% of their investment back as income tax relief, and additional reliefs in case of losses or capital gains.
+            </p>
+      
+            <div class="grid gap-4 md:grid-cols-3">
+              <a href="https://www.gov.uk/guidance/venture-capital-schemes-apply-for-the-seed-enterprise-investment-scheme" target="_blank" class="flex flex-col items-center p-4 bg-black border border-cyan-400/20 rounded-md hover:border-cyan-400/40 transition-all">
+                <svg class="h-8 w-8 text-cyan-400 mb-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                </svg>
+                <span class="text-white font-medium">About SEIS (HMRC)</span>
+              </a>
+              <a href="#" class="flex flex-col items-center p-4 bg-black border border-cyan-400/20 rounded-md hover:border-cyan-400/40 transition-all">
+                <svg class="h-8 w-8 text-cyan-400 mb-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                </svg>
+                <span class="text-white font-medium">SEIS Investor Overview</span>
+              </a>
+              <a href="#" class="flex flex-col items-center p-4 bg-black border border-cyan-400/20 rounded-md hover:border-cyan-400/40 transition-all">
+                <svg class="h-8 w-8 text-cyan-400 mb-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                </svg>
+                <span class="text-white font-medium">SEIS FAQ</span>
+              </a>
+            </div>
+      
+            <div class="mt-8 space-y-4">
+              <div class="flex items-start">
+                <div class="mr-3 h-6 w-6 text-cyan-400 mt-0.5 flex-shrink-0">
+                  <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-white">
+                    <span class="font-semibold">Can I invest now?</span> Yes — funds can be accepted in advance; shares will be issued post-SEIS approval.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="mr-3 h-6 w-6 text-cyan-400 mt-0.5 flex-shrink-0">
+                  <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-white">
+                    <span class="font-semibold">Is there a minimum investment?</span> No strict minimum, but common amounts range from £1k to £10k+.
+                  </p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="mr-3 h-6 w-6 text-cyan-400 mt-0.5 flex-shrink-0">
+                  <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6z"/>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-white">
+                    <span class="font-semibold">Can overseas investors participate?</span> Yes, but they won't be eligible for SEIS tax relief unless they pay UK income tax.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="articles" style="width: 100%; padding-top: 3rem; padding-bottom: 3rem; background-color: #ecfeff;">
+        <div style="padding-left: 1rem; padding-right: 1rem; max-width: 768px; margin: 0 auto;">
+          <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1rem;">
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <div style="display: inline-flex; align-items: center; border: 1px solid #22d3ee; background-color: rgba(34, 211, 238, 0.1); padding: 0.25rem 0.75rem; font-size: 0.875rem; font-weight: 600; color: #0e7490; border-radius: 9999px;">
+                <!-- Icon placeholder for FileText -->
+                📄
+                <span style="margin-left: 0.25rem;">Articles</span>
+              </div>
+              <h2 style="font-size: 1.875rem; font-weight: 700; letter-spacing: -0.025em; color: black;">Insights</h2>
+            </div>
+          </div>
+      
+          <div style="margin-top: 3rem; display: flex; flex-direction: column; align-items: center;">
+            <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; border: 1px solid rgba(34, 211, 238, 0.2); max-width: 672px;" class="text-center">
+              <!-- Icon placeholder for FileText -->
+              <div style="font-size: 3rem; color: #0e7490; margin-bottom: 1rem;">📄</div>
+              <h3 style="font-size: 1.5rem; font-weight: 700; color: black; margin-bottom: 1rem;">Coming Soon</h3>
+              <p style="color: #4b5563;">Our first two insights on compliance as an enabler and AI as a force for humanity.</p>
+              <div style="margin-top: 1.5rem; display: flex; justify-content: center;">
+                <a a href="mailto:investors@aegiscomplianceai.com" style="background-color: #22d3ee; color: black; padding: 0.5rem 1.5rem; border-radius: 0.375rem; font-size: 0.875rem; font-weight: 500; border: none; cursor: pointer; transition: background-color 0.2s;" class="flex items-center gap-2 justify-center">
+                  Subscribe for Updates 
+                  <svg viewBox="0 0 24 24" fill="none" class="h-4 w-4" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.691 8.507c0 2.847 1.582 5.29 3.806 5.29 2.223 0 3.803-2.443 3.803-5.29 0-2.846-1.348-4.51-3.803-4.51-2.456 0-3.806 1.664-3.806 4.51zM1.326 19.192c.82.537 2.879.805 6.174.805 3.295 0 5.353-.268 6.174-.804a.5.5 0 0 0 .225-.453c-.152-2.228-2.287-3.343-6.403-3.343-4.117 0-6.249 1.115-6.395 3.344a.5.5 0 0 0 .225.451zM18 17a1 1 0 0 1-1-1v-3h-3a1 1 0 1 1 0-2h3V8a1 1 0 1 1 2 0v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 0 1-1 1z" fill="#000000"/>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" style="width: 100%; padding-top: 3rem; padding-bottom: 3rem; background-color: black;">
+        <div style="padding-left: 1rem; padding-right: 1rem; max-width: 768px; margin: 0 auto;">
+          <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1rem; margin-bottom: 3rem;">
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <div class="inline-flex items-center rounded-full border border-cyan-400 bg-cyan-400/10 px-3 py-1 text-sm font-semibold text-cyan-400 mx-auto">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M4 4h16v16H4V4z"/>
+                  <path d="M22 6l-10 7L2 6"/>
+                </svg>
+                Contact Us
+              </div>
+              <h2 style="font-size: 2.25rem; font-weight: 700; letter-spacing: -0.025em; color: white;">
+                Have questions or want to collaborate?
+              </h2>
+            </div>
+          </div>
+      
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+              <a href="https://calendar.app.google/XPscdGMbEmYkySQf9" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; height: 2.5rem; background-color: #22d3ee; padding: 0 2rem; font-size: 0.875rem; font-weight: 500; color: black; border-radius: 0.375rem; text-decoration: none; transition: background-color 0.2s;">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                  <path d="M16 2v4M8 2v4M3 10h18"/>
+                </svg> 
+                Book a Call
+              </a>
+              <a href="mailto:investors@aegiscomplianceai.com" class="inline-flex h-10 items-center justify-center rounded-md border border-cyan-400 bg-transparent px-8 text-sm font-medium text-white transition-colors hover:bg-cyan-400/10 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M4 4h16v16H4V4z"/>
+                  <path d="M22 6l-10 7L2 6"/>
+                </svg>
+                Email Us
+              </a>
+            </div>
+            <p style="color: #9ca3af;">Or email us at info@aegiscomplianceai.com</p>
+          </div>
+        </div>
+      </section>    
+      <footer style="width: 100%; border-top: 1px solid rgba(34, 211, 238, 0.2); background-color: black; padding-top: 1.5rem; padding-bottom: 1.5rem;">
+        <div style="max-width: 1024px; margin: 0 auto; padding-left: 1rem; padding-right: 1rem; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+      
+          <a class="flex justify-center flex-col items-center" href="#">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <!-- Icon placeholder for Shield -->
+              <img src="aegis-text-white.svg" class="h-20 w-48" />
+            </div>
+        
+            <div style="font-size: 0.875rem; color: #9ca3af;">
+              © 2025 Aegis Compliance AI. All rights reserved.
+            </div>
+          </a>
+          
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
