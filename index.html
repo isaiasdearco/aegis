@@ -2,18 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/aegis.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Aegis Compliance AI</title>
     <link rel="stylesheet" href="src/style.css">
   </head>
   <body>
     <header class="sticky top-0 z-50 w-full border-b border-cyan-500/20 bg-black/95 backdrop-blur">
       <div class="container flex h-16 items-center justify-between px-6 md:px-0">
-        <div class="flex items-center gap-2">
-          <img src="shield-icon.svg" class="h-8 w-8 text-cyan-400" alt="Shield Icon" />
-          <span class="text-xl font-bold text-white">Aegis</span>
-        </div>
+        <a class="flex items-center gap-2" href="#intro">
+          <img src="aegis-text-white.svg" class="h-36 w-36 text-cyan-400" alt="Shield Icon" />
+        </a>
         <nav class="hidden md:flex gap-6">
           <a href="#intro" class="text-sm font-medium text-white hover:text-cyan-400 transition-colors">Intro</a>
           <a href="#about" class="text-sm font-medium text-white hover:text-cyan-400 transition-colors">About Us</a>
@@ -30,17 +29,17 @@
     </header>
     <main className="flex-1">
       <section id="intro" class="w-full py-12 md:py-24 lg:py-32 bg-black">
-        <div class="absolute inset-0 opacity-10">
+        <div class="absolute inset-0 opacity-10 z-(-99) pointer-events-none">
           <div class="absolute inset-0 bg-[radial-gradient(#00ffff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         </div>
         <div class="container px-4 md:px-6">
-          <div class="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
+          <div class="grid gap-6  lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div class="flex flex-col justify-center space-y-4">
               <div class="space-y-2 text-center">
                 <h1 class="text-3xl font-bold tracking-tighter text-white sm:text-5xl xl:text-6xl/none">
                   Welcome to Aegis Compliance AI
                 </h1>
-                <p class="max-w-[600px] text-gray-300 md:text-xl">
+                <p class="max-w-[600px] text-gray-300 md:text-xl mx-auto">
                   Your scalable partner for ethical, adaptive compliance in tech and AI.
                 </p>
               </div>
@@ -60,14 +59,14 @@
               </div>
             </div>
             <div class="flex items-center justify-center">
-              <div class="relative h-[350px] w-[350px] sm:h-[400px] sm:w-[400px] lg:h-[500px] lg:w-[500px]">
-                <div class="absolute inset-0 rounded-full bg-cyan-400/20 blur-3xl"></div>
-                <div class="absolute inset-10 rounded-full border-2 border-cyan-400/40 bg-black"></div>
-                <div class="absolute inset-0 flex items-center justify-center">
+              <div class="relative h-[300px] w-[300px] md:h-[400px] md:w-[400px] lg:h-[500px] lg:w-[500px]">
+                <div class="absolute inset-0 flex items-center justify-center bg-white rounded-full ">
                   <!-- Replace this with an actual SVG or icon if needed -->
-                  <svg class="h-32 w-32 text-cyan-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <!-- <svg class="h-32 w-32 text-cyan-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path d="M12 2l7 4v6c0 5-3.6 9.4-7 10-3.4-.6-7-5-7-10V6l7-4z" />
-                  </svg>
+                  </svg> -->
+
+                  <img src="aegis.svg" alt="Description of the image" />
                 </div>
               </div>
             </div>
@@ -161,7 +160,7 @@
           </div>
       
           <div class="mt-8 flex justify-center">
-            <a href="#" class="inline-flex h-10 items-center justify-center rounded-md bg-cyan-400 px-8 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+            <a href="Invest in Aegis.pdf" download type="" class="inline-flex h-10 items-center justify-center rounded-md bg-cyan-400 px-8 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
               <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                 <path d="M12 5v14m0 0l-6-6m6 6l6-6"/>
               </svg>
@@ -172,7 +171,7 @@
           <div class="mt-12 text-center">
             <h3 class="text-xl font-bold text-white mb-4">Interested in joining us?</h3>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#contact" class="inline-flex h-10 items-center justify-center rounded-md bg-cyan-400 px-8 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+              <a href="https://calendar.app.google/XPscdGMbEm YkySQf9" target="_blank" class="inline-flex h-10 items-center justify-center rounded-md bg-cyan-400 px-8 text-sm font-medium text-black transition-colors hover:bg-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
                 <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
                   <path d="M16 2v4M8 2v4M3 10h18"/>
@@ -272,14 +271,21 @@
           </div>
       
           <div style="margin-top: 3rem; display: flex; flex-direction: column; align-items: center;">
-            <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; border: 1px solid rgba(34, 211, 238, 0.2); max-width: 672px;">
+            <div style="background-color: white; padding: 2rem; border-radius: 0.5rem; border: 1px solid rgba(34, 211, 238, 0.2); max-width: 672px;" class="text-center">
               <!-- Icon placeholder for FileText -->
               <div style="font-size: 3rem; color: #0e7490; margin-bottom: 1rem;">📄</div>
               <h3 style="font-size: 1.5rem; font-weight: 700; color: black; margin-bottom: 1rem;">Coming Soon</h3>
               <p style="color: #4b5563;">Our first two insights on compliance as an enabler and AI as a force for humanity.</p>
               <div style="margin-top: 1.5rem; display: flex; justify-content: center;">
-                <button style="background-color: #22d3ee; color: black; padding: 0.5rem 1.5rem; border-radius: 0.375rem; font-size: 0.875rem; font-weight: 500; border: none; cursor: pointer; transition: background-color 0.2s;">
-                  Subscribe for Updates <span style="margin-left: 0.5rem;">➡️</span>
+                <button style="background-color: #22d3ee; color: black; padding: 0.5rem 1.5rem; border-radius: 0.375rem; font-size: 0.875rem; font-weight: 500; border: none; cursor: pointer; transition: background-color 0.2s;" class="flex items-center gap-2 justify-center">
+                  Subscribe for Updates 
+                  <svg viewBox="0 0 24 24" fill="none" class="h-4 w-4" xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.691 8.507c0 2.847 1.582 5.29 3.806 5.29 2.223 0 3.803-2.443 3.803-5.29 0-2.846-1.348-4.51-3.803-4.51-2.456 0-3.806 1.664-3.806 4.51zM1.326 19.192c.82.537 2.879.805 6.174.805 3.295 0 5.353-.268 6.174-.804a.5.5 0 0 0 .225-.453c-.152-2.228-2.287-3.343-6.403-3.343-4.117 0-6.249 1.115-6.395 3.344a.5.5 0 0 0 .225.451zM18 17a1 1 0 0 1-1-1v-3h-3a1 1 0 1 1 0-2h3V8a1 1 0 1 1 2 0v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 0 1-1 1z" fill="#000000"/>
+                    </g>
+                  </svg>
                 </button>
               </div>
             </div>
@@ -290,10 +296,12 @@
         <div style="padding-left: 1rem; padding-right: 1rem; max-width: 768px; margin: 0 auto;">
           <div style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1rem; margin-bottom: 3rem;">
             <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-              <div style="display: inline-flex; align-items: center; border: 1px solid #22d3ee; background-color: rgba(34, 211, 238, 0.1); padding: 0.25rem 0.75rem; font-size: 0.875rem; font-weight: 600; color: #22d3ee; border-radius: 9999px;">
-                <!-- Icon placeholder for Mail -->
-                ✉️
-                <span style="margin-left: 0.25rem;">Contact Us</span>
+              <div class="inline-flex items-center rounded-full border border-cyan-400 bg-cyan-400/10 px-3 py-1 text-sm font-semibold text-cyan-400 mx-auto">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M4 4h16v16H4V4z"/>
+                  <path d="M22 6l-10 7L2 6"/>
+                </svg>
+                Contact Us
               </div>
               <h2 style="font-size: 2.25rem; font-weight: 700; letter-spacing: -0.025em; color: white;">
                 Have questions or want to collaborate?
@@ -302,12 +310,20 @@
           </div>
       
           <div style="display: flex; flex-direction: column; align-items: center; gap: 1.5rem;">
-            <div style="display: flex; flex-direction: column; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-              <a href="#" style="display: inline-flex; align-items: center; justify-content: center; height: 2.5rem; background-color: #22d3ee; padding: 0 2rem; font-size: 0.875rem; font-weight: 500; color: black; border-radius: 0.375rem; text-decoration: none; transition: background-color 0.2s;">
-                📅 <span style="margin-left: 0.5rem;">Book a Call</span>
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+              <a href="https://calendar.app.google/XPscdGMbEmYkySQf9" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; height: 2.5rem; background-color: #22d3ee; padding: 0 2rem; font-size: 0.875rem; font-weight: 500; color: black; border-radius: 0.375rem; text-decoration: none; transition: background-color 0.2s;">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                  <path d="M16 2v4M8 2v4M3 10h18"/>
+                </svg> 
+                Book a Call
               </a>
-              <a href="mailto:info@aegiscomplianceai.com" style="display: inline-flex; align-items: center; justify-content: center; height: 2.5rem; border: 1px solid #22d3ee; background-color: transparent; padding: 0 2rem; font-size: 0.875rem; font-weight: 500; color: white; border-radius: 0.375rem; text-decoration: none; transition: background-color 0.2s;">
-                ✉️ <span style="margin-left: 0.5rem;">Email Us</span>
+              <a href="mailto:investors@aegiscomplianceai.com" class="inline-flex h-10 items-center justify-center rounded-md border border-cyan-400 bg-transparent px-8 text-sm font-medium text-white transition-colors hover:bg-cyan-400/10 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2">
+                <svg class="mr-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path d="M4 4h16v16H4V4z"/>
+                  <path d="M22 6l-10 7L2 6"/>
+                </svg>
+                Email Us
               </a>
             </div>
             <p style="color: #9ca3af;">Or email us at info@aegiscomplianceai.com</p>
@@ -317,15 +333,16 @@
       <footer style="width: 100%; border-top: 1px solid rgba(34, 211, 238, 0.2); background-color: black; padding-top: 1.5rem; padding-bottom: 1.5rem;">
         <div style="max-width: 1024px; margin: 0 auto; padding-left: 1rem; padding-right: 1rem; display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
       
-          <div style="display: flex; align-items: center; gap: 0.5rem;">
-            <!-- Icon placeholder for Shield -->
-            🛡️
-            <span style="font-size: 1.125rem; font-weight: 700; color: white;">Aegis Compliance AI</span>
-          </div>
-      
-          <div style="font-size: 0.875rem; color: #9ca3af;">
-            © 2025 Aegis Compliance AI. All rights reserved.
-          </div>
+          <a class="flex justify-center flex-col items-center" href="#">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <!-- Icon placeholder for Shield -->
+              <img src="aegis-text-white.svg" class="h-20 w-48" />
+            </div>
+        
+            <div style="font-size: 0.875rem; color: #9ca3af;">
+              © 2025 Aegis Compliance AI. All rights reserved.
+            </div>
+          </a>
           
         </div>
       </footer>
