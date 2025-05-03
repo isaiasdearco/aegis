@@ -2,14 +2,28 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NKH90JHXV1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NKH90JHXV1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-NKH90JHXV1');
-  </script>
+      gtag('config', 'G-NKH90JHXV1');
+    </script>
+    <script> 
+      function initApollo() {
+        var n = Math.random().toString(36).substring(7),
+          o = document.createElement("script");
+        o.src = "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=" + n, o.async = !0, o.defer = !0,
+          o.onload = function() {
+            window.trackingFunctions.onLoad({
+              appId: "68109b4ca04c36000d1ba631"
+            })
+          },
+          document.head.appendChild(o)
+      }
+      initApollo(); 
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/aegis.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
